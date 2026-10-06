@@ -1,0 +1,81 @@
+# ==================== 依赖目录 ====================
+node_modules/
+vue_operation/node_modules/
+flask_api_operation/.venv/
+flask_api_operation/__pycache__/
+
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+*.whl
+
+# ==================== 虚拟环境 ====================
+.venv/
+venv/
+ENV/
+env/
+
+# ==================== Node / Vue ====================
+vue_operation/dist/
+vue_operation/.env.local
+vue_operation/.env.*.local
+vue_operation/npm-debug.log*
+vue_operation/yarn-debug.log*
+vue_operation/yarn-error.log*
+vue_operation/pnpm-debug.log*
+*.tsbuildinfo
+
+# ==================== IDE / 编辑器 ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# ==================== 环境变量 ====================
+# 忽略真实配置，保留 .env.example 供其他人参考
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ==================== 日志 ====================
+*.log
+logs/
+
+# ==================== 数据库 ====================
+*.sqlite3
+*.db
+
+# ==================== Aerich 迁移（可选，取消注释则忽略迁移文件） ====================
+# flask_api_operation/migrations/
+
+# ==================== Playwright ====================
+flask_api_operation/playwright-report/
+flask_api_operation/test-results/
+flask_api_operation/.playwright/
+
+# ==================== 临时文件 ====================
+*.tmp
+*.temp
+*.bak
+*.cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ==================== OSS / 上传（本地测试产物） ====================
+uploads/
+static/uploads/
